@@ -1,3 +1,5 @@
+package source;
+
 /**
  * Class which will handle all the logic of finding the largest three numbers in an
  * array and displaying them from lowest to largest
@@ -34,7 +36,7 @@ public class ThreeLargest{
         //start at the smallest number and work up the list
         for(int i = largest.length - 1; i >= 0 ; i--){
             //if the current number is greater than an element in the array,shift the array
-            if(num > largest[i]]){
+            if(num > largest[i]){
                 shift(largest, num, i); 
                 return; // stop the function if reached
             }

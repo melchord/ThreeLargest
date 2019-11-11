@@ -7,3 +7,10 @@ integers if necessary; for example, it should return [10, 10, 12] for an input a
 
 Sample input:[141, 1, 17, -7, -17, -27, 18,541, 8, 7, 7]
 Sample output: [18, 141, 541]
+
+To run the test class
+
+1. Compile the classes using 
+    javac -cp <class path of junit4-4.12.jar>:. test/Tests.java source/TwoSum.java
+2. Run the test class
+    java -cp <class path of junit4-4.12.jar>:. org.junit.runner.JUnitCore tests.Tests
